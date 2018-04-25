@@ -2,7 +2,7 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      <title>pager2</title>
+      <title>page1</title>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     jax: ["input/TeX","output/HTML-CSS"],
@@ -396,142 +396,86 @@ pre.editor-colors .bracket-matcher .region {
 pre.editor-colors { overflow: auto; }</style>
   </head>
   <body class="markdown-preview-plus-view" data-use-github-style>
-    <p><strong>An Introduction to Sampling via Measure Transport</strong></p>
-<p>Youssef Marzouk, Tarek Moselhy, Matthew Parno and Alessio Spantini</p>
+    <p><strong>Estimation Theory</strong></p>
+<p>Estimation Theory is a part of Parametric Statistics. As the name Parametric Statistics suggests, it is a study which involves family of probability measures indexed by certain parameters. For example: <span class="math"><script type="math/tex">\{\mathbb{P}_\theta,\theta\in\Theta\}</script></span> denotes a family of probability measure that is indexed by the parameter <span class="math"><script type="math/tex">\theta</script></span>. The parameter <span class="math"><script type="math/tex">\theta</script></span> for instance can belong to <span class="math"><script type="math/tex">\mathbb{N}</script></span> or from some abstract set.</p>
+<p>A more practical example will be <span class="math"><script type="math/tex">\text{N}(\mu,\Sigma)</script></span>, i.e. a family of Gaussian distribution. Here <span class="math"><script type="math/tex">\theta:=(\mu,\Sigma)</script></span> is the indexing parameter that belongs to <span class="math"><script type="math/tex">\Theta=\mathbb{R}\times[0,\infty)</script></span>.</p>
+<p>Now suppose we fix the parameter <span class="math"><script type="math/tex">\theta=\theta_0</script></span> and then independently draw <span class="math"><script type="math/tex">n</script></span> samples <span class="math"><script type="math/tex">X_1,X_2,...,X_n</script></span> from the distribution <span class="math"><script type="math/tex">\mathbb{P}_{\theta_0}</script></span>. Estimation theory deals with the synthesis and analysis of a map from <span class="math"><script type="math/tex">(X_1,X_2,...,X_n)</script></span> which are the observations to <span class="math"><script type="math/tex">\theta_0</script></span> which is the unknown, i.e. we try to find <span class="math"><script type="math/tex">\hat{\theta}_0 = f(X_1,X_2,...,X_n)</script></span>, which is called an estimator. We further analyze how faithfully this estimator estimates our desired <span class="math"><script type="math/tex">\theta_0</script></span>. <span class="math"><script type="math/tex">(X_1,X_2,...,X_n)</script></span> are said to be i.i.d. samples.</p>
 <hr>
-<p><strong>What is a Transport Map ?</strong></p>
-<p>Suppose we have two random variable <span class="math"><script type="math/tex">X\in\mathbb{R}^n</script></span> with probability measure <span class="math"><script type="math/tex">\mu_{ref}</script></span> and <span class="math"><script type="math/tex">Y\in\mathbb{R}^n</script></span> with probability measure <span class="math"><script type="math/tex">\mu_{tar}</script></span>. Transport map <span class="math"><script type="math/tex">T:X\to Y</script></span> pushes forward <span class="math"><script type="math/tex">\mu_{ref}</script></span> to <span class="math"><script type="math/tex">\mu_{tar}</script></span> if and only if <span class="math"><script type="math/tex">\mu_{tar}(A) = \mu_{ref}(T^{-1}(A))</script></span>.</p>
-<p><strong>Note</strong>: <span style="color:blue">It is not clear what happens for  <span class="math"><script type="math/tex">\mathbb{R}^n\to \mathbb{R}^m</script></span> when <span class="math"><script type="math/tex">n\neq m</script></span></span>.</p>
-<p><strong>Utility of Transport Map</strong></p>
-<ol>
-<li>Generate Independent samples from <span class="math"><script type="math/tex">\mu_{ref}</script></span> and use <span class="math"><script type="math/tex">T</script></span> to generate independent samples from <span class="math"><script type="math/tex">\mu_{tar}</script></span>. It is not clear how you generate samples from marginal distribution of <span class="math"><script type="math/tex">\mu_{tar}</script></span>.</li>
-<li>Deterministic Sampling approach can be implemented. Quadrature samples of <span class="math"><script type="math/tex">\mu_{ref}</script></span> can generate quadrature samples from <span style="color:red">non-standard</span> <span class="math"><script type="math/tex">\mu_{tar}</script></span>.</li>
-<li>Alternative to MCMC and SMC methods. In MCMC samples are correlated and in SMC samples have weights. Problems occurs if correlation decay is very slow or sample weights are too non-uniform them sample population degenerates and these techniques become extremely inefficient.</li>
-</ol>
-<p><strong>Note</strong>: <span style="color:red">Independent and unweighted samples from reference measure will generate Independent and unweighted samples from the target measure throught that transport map</span>.</p>
-<hr>
-<p><strong>What do we have with us to construct such a Transport Map ?</strong></p>
-<p>Two situations are discussed in this paper:</p>
-<ol>
-<li>Density evaluation from unnormalized target density is available</li>
-<li>Finite samples are know from the target density</li>
-</ol>
-<hr>
-<p><strong>Existence of Transport Map</strong></p>
-<p>A transport map exists if both the measures are absolutely continuoous with respect to the Lebesgue measure on <span class="math"><script type="math/tex">\mathbb{R}^n</script></span></p>
-<hr>
-<p><strong>Characterizing a Transport Map</strong></p>
-<p>Infinite such map <span class="math"><script type="math/tex">T</script></span> may exist. One way to constrain the number of such maps is by introducing a cost function <span class="math"><script type="math/tex">c:\mathbb{R}^n\times\mathbb{R}^n\to \mathbb{R}</script></span>. We are then interested in such maps <span class="math"><script type="math/tex">T</script></span> than minimizes the functional:</p>
-<span class="math"><script type="math/tex; mode=display">C(T) = \int_{\mathbb{R}^n} c(x,T(x))d\mu_{ref}(x),
-</script></span>
-<p>Hence the name Optimal Transport (OT) Map.</p>
-<p><strong>Note</strong>: Not <span class="math"><script type="math/tex">c:\mathbb{R}^n\times\mathbb{R}^n\to \mathbb{R}^+</script></span></p>
-<p><strong>Note</strong>: If <span class="math"><script type="math/tex">c</script></span> is quadratic and and <span class="math"><script type="math/tex">\mu_{ref}</script></span> is atomless, the OT map exists and is unique. In this case the map is gradient of convex function and thus monotone.</p>
-<hr>
-<p><strong>Formulating the Optimization Problem that generates Lower Triangular Map</strong></p>
-<p>The map satisfies: <span class="math"><script type="math/tex">\mu_{tar} = \mu_{ref} \circ T ^{-1}</script></span> between two probability measures.
-Between two density functions of these measures (<span class="math"><script type="math/tex">\pi</script></span> for <span class="math"><script type="math/tex">\mu_{tar}</script></span> and <span class="math"><script type="math/tex">\eta</script></span> for <span class="math"><script type="math/tex">\mu_{ref}</script></span>) theh transport map satisfies:</p>
-<span class="math"><script type="math/tex; mode=display">T_{\natural}\eta := \pi = \eta \circ T^{-1} |\text{det}\nabla T^{-1}| = \frac{\eta \circ T^{-1}}{|\text{det} \nabla T \circ T^{-1}|}
-</script></span>
-<p>Kullback-Leibler (K-L) divergence between the push forward density <span class="math"><script type="math/tex">T_{\natural}\eta</script></span> and true target density <span class="math"><script type="math/tex">\pi</script></span> is:</p>
-<span class="math"><script type="math/tex; mode=display">\mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) = \mathbb{E}_{T_{\natural}\eta}\Big(\text{log}\frac{T_{\natural}\eta}{\pi}\Big)
-</script></span>
-<p>If K-L divergence is taken to be the cost function then the transport map can be calculated as the solution to the following optimization problem over <span class="math"><script type="math/tex">\mathcal{T}</script></span> (set of all appropriate diffeomorphisms):</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) \\
-\text{s.t} \ \ & \text{det}\nabla T > 0, \\ & T \in \mathcal{T} \end{align}</script></span>
-<p>Global minimizer <span class="math"><script type="math/tex">T</script></span> exists where <span class="math"><script type="math/tex">\mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) = 0</script></span>.</p>
-<p><strong>Note</strong>: Why <span class="math"><script type="math/tex">\text{det}\nabla T > 0</script></span> is not clear. Why <span class="math"><script type="math/tex">\text{det}\nabla T \neq 0</script></span> is not sifficient ?.</p>
-<hr>
-<p><strong>Triangular structure of transport map</strong></p>
-<p>For a particular cost function</p>
-<span class="math"><script type="math/tex; mode=display">c(x,z) = \sum_{i-1}^n t^{i-1}|x_i-z_i|^2,\ t >0,
-</script></span>
-<p>the OT map becomes lower triangular when <span class="math"><script type="math/tex">t\to 0</script></span>.</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\mathbf{T}(\mathbf{x}) = \begin{bmatrix}  T^1(x_1) \\ T^2(x_1,x_2) \\ T^2(x_1,x_2,x_3) . \\ . \\ . \end{bmatrix}\end{align}
-</script></span>
-<p><strong>Note</strong>: When target and reference measures are absolutely continuous a unique lower traingular map exists and is the Knothe-Rosenblatt rearrangememt. It is not clear how do one index each dimension of the random variable.</p>
-<p><strong>Note</strong>: Since getting to <span class="math"><script type="math/tex">\mathbb{\mu}_{ref}</script></span> is of importance ranther than what map takes us there, the authors focussed on lower traingular map since</p>
-<ol>
-<li>It makes constructing transport map feasible.</li>
-<li>Conditional sampling straightforward</li>
-<li>Map inversion efficient</li>
-</ol>
-<p><span style="color:blue"><strong>Hence we choose space of lower triangular maps as the domain of the K-L divergence based optimization problem</strong></span></p>
-<hr>
-<p><strong>Optimization problem with lower traingular maps</strong></p>
-<p>For lower triangular map <span class="math"><script type="math/tex">\nabla T</script></span> is a lower traingular matrix. Since for a lower triangular matrix eigen values are the diagonal elements itself, <span class="math"><script type="math/tex">\text{det}\nabla T > 0</script></span> is ensured by <span class="math"><script type="math/tex">\nabla T \succ 0</script></span>. Moreover it ensures <span class="math"><script type="math/tex">\nabla T</script></span> is invertible.</p>
-<p>Hence we have restricted the space of feasible lower traingular map using <span class="math"><script type="math/tex">\nabla T \succ 0</script></span> instead of <span class="math"><script type="math/tex">\text{det}\nabla T > 0</script></span>. The optimization problem becomes:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) \\
-\text{s.t} \ \ & \nabla T \succ 0, \\ & T \in \mathcal{T}_{\Delta} \end{align}</script></span>
-<p>where <span class="math"><script type="math/tex">\mathcal{T}_{\Delta}</script></span> is the space of all lower triangular maps. The Knothe-Rosenblatt is the <em>unique</em> minimizer of this optimization problem.</p>
-<hr>
-<p>Up till now we were working with normalized densities. But we discussed before that we can only evaluate <span style="color:red"><strong>unnormalized target densities</strong></span>.</p>
-<p>Let <span class="math"><script type="math/tex">\bar{\pi}</script></span> denote the <em>unnormalized</em> target density. The objective function:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) & = \mathcal{D}_{KL}(\eta \ || \ T_{\natural}^{-1}\pi) \\
-& = \mathbb{E}_{\eta}\Big(\text{log}\frac{\eta}{T_{\natural}^{-1}\pi}\Big)\\
-& = \mathbb{E}_{\eta}[\text{log} \ \eta - \text{log} \ {T_{\natural}^{-1}\pi}]
+<p><strong>How do you synthesize an estimator ?</strong></p>
+<p>Suppose we have a Gaussian distribution <span class="math"><script type="math/tex">\text{N}(\mu_0,\sigma^2_0)</script></span> where <span class="math"><script type="math/tex">\theta_0:=(\mu_0,\sigma^2_0)</script></span> are unknown. But we have <span class="math"><script type="math/tex">n</script></span> samples <span class="math"><script type="math/tex">X_1,X_2,...,X_n</script></span> from this distribution.</p>
+<ul>
+<li>By Law of Large Numbers (LLN) when we take sufficiently large number of samples i.e. <span class="math"><script type="math/tex">n\to \infty</script></span> we see</li>
+</ul>
+<span class="math"><script type="math/tex; mode=display">\hat{\mu}_0 = \begin{align}\frac{X_1+X_2+...+X_n}{n} \to \mathbb{E}[X_1] = \mu_0
 \end{align}</script></span>
-<p>Now <span class="math"><script type="math/tex">T_{\natural}^{-1}\pi = \pi\circ T \ \text{det}\nabla T</script></span>, hence</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi)
-& = \mathbb{E}_{\eta}[\text{log} \ \eta - \text{log} \ {T_{\natural}^{-1}\pi}]\\
-& = \mathbb{E}_{\eta}[\text{log} \ \eta - \text{log} \ {\pi \circ T} - \text{log} \ {\text{det}\nabla T}]\\
-& = \mathbb{E}_{\eta}[\text{log} \ \eta - \text{log} \ {\bar{\pi} \circ T} + \text{log} \beta - \text{log} \ {\text{det}\nabla T}]\\
-& = \mathbb{E}_{\eta}[ - \text{log} \ {\bar{\pi} \circ T}  - \text{log} \ {\text{det}\nabla T}] + \mathcal{C} (\text{constant})
-\end{align}</script></span>
-<hr>
-<p><strong>Optimization Problem with Unnormalized Target Pdf</strong></p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \mathbb{E}_{\eta}[ - \text{log} \ {\bar{\pi} \circ T}  - \text{log} \ {\text{det}\nabla T}] \\
-\text{s.t} \ \ & \nabla T \succ 0, \\ & T \in \mathcal{T}_{\Delta} \end{align}</script></span>
-<p><strong>Note</strong>: The objective function is an integral over <span class="math"><script type="math/tex">\eta</script></span> , i.e. our reference density. This integral can be easily evaluated using various techniques such as: quadrature, cubature, sparse quadrature, Monte Carlo, quasi MC etc.</p>
-<p><strong>Note</strong>: <span style="color:blue"><strong>Hence this procedure is not helpful in the scenario where samples from the target density is available, which is mentioned in the section "What do we have with us to construct such a Transport Map ? "</strong></span>.</p>
-<p>The objective function can be convex or non-convex. The paper uses Quasi Netwon method paired with finite dimensional space of lower triangular maps to generate the minimizer of the objective function along with satisfying the constraint <span class="math"><script type="math/tex">\nabla T \succ 0</script></span>.</p>
-<hr>
-<p><strong>Convergence of Transport Map</strong></p>
-<p>After we calculate the transport map, the K-L divergence btween the target and the approximate target map is estimates from the unnormalized target map using: <span class="math"><script type="math/tex">\mathcal{D}_{KL}(T_{\natural}\eta \ || \ \pi) \approx \frac{1}{2}\mathbb{V}\text{ar}[\text{log} \ \eta - \text{log} \  T_{\natural}^{-1}\pi]</script></span></p>
-<hr>
-<p><strong>Optimization problem with approximated objective function</strong></p>
-<p><span class="math"><script type="math/tex">\text{det}\nabla T = \Pi_{k=1}^n \partial_k T^k</script></span>, so the optimization problem can be written as:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \frac{1}{M}\sum_{i=1}^{M}[ - \text{log} \ {\bar{\pi}(T(x_i))}  - \sum_{k=1}^n\text{log} \ \partial_k T^k(x_i)] \\
-\text{s.t} \ \ & \partial_k T^k > 0, \ k = 1,...n \ , \\ & T \in \mathcal{T}_{\Delta}^h \subset \mathcal{T}_{\Delta} \end{align}</script></span>
-<p><strong>Three level Approximation</strong></p>
-<ol>
-<li>First the lower traingular map is parameterized by (finite) <span class="math"><script type="math/tex">h</script></span> parameters. Hence we restrict ourselves to <span class="math"><script type="math/tex">\mathcal{T}_{\Delta}^h \subset \mathcal{T}_{\Delta}</script></span>.</li>
-<li>The objective function evaluation needs to be approximated with respect to the reference measure.</li>
-<li>The monotonicity condition <span class="math"><script type="math/tex">\partial_k T^k > 0</script></span> is sometimes relaxed.</li>
-</ol>
-<hr>
-<p><strong>Monotone parameterization of finite dimensional maps</strong></p>
-<p>The polynomial approximation and the radial basis function based approximation donot generate monotone maps. Monotonicity condition has to be imposed explicitly somehow.</p>
-<p>The authors introduce the following mapping functions:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}T^1(x_1)  & = a_1+\int_0^{x_1}e^{b_1(w)}dw \\
-T^k(x_1,x_2,...,x_k)  & = a_k(x_1,x_2,...,x_{k-1})+\int_0^{x_k}e^{b_k(x_1,x_2,...,x_{k-1},w)}dw
-\end{align}</script></span>
-<p>which automatically ensures that <span class="math"><script type="math/tex">\partial_k T^k > 0</script></span>. Now we can choose a finite dimensional parameterization of <span class="math"><script type="math/tex">a_k,b_k</script></span>.</p>
-<hr>
-<p><strong>Inverse Transport Maps: Constructing Transport map when just samples from target distribution are available</strong></p>
-<p>Let <span class="math"><script type="math/tex">S</script></span> be the inverse transport map that maps density from target <span class="math"><script type="math/tex">\pi</script></span> to <span class="math"><script type="math/tex">\eta</script></span> reference. The map satisfies <span class="math"><script type="math/tex">\mu_{ref} = \mu_{tar}\circ S^{-1}</script></span>. For triangular maps the optimization problem becomes:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \mathcal{D}_{KL}(S_{\natural}\pi \ || \ \eta) \\
-\text{s.t} \ \ & \nabla S \succ 0, \\ & S \in \mathcal{T}_{\Delta} \end{align}</script></span>
-<p>The objective function:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\mathcal{D}_{KL}(S_{\natural}\pi \ || \ \eta) & = \mathcal{D}_{KL}(\pi \ || \ S_{\natural}^{-1}\eta) \\
-& = \mathbb{E}_{\pi}\Big(\text{log}\frac{\pi}{S_{\natural}^{-1}\eta}\Big)\\
-& = \mathbb{E}_{\pi}[\text{log} \ \pi - \text{log} \ {S_{\natural}^{-1}\eta}]
-\end{align}</script></span>
-<p>Now <span class="math"><script type="math/tex">S_{\natural}^{-1}\eta = \eta\circ S \ \text{det}\nabla S</script></span>, hence</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\mathcal{D}_{KL}(S_{\natural}\pi \ || \ \eta)
-& = \mathbb{E}_{\pi}[\text{log} \ \pi - \text{log} \ {S_{\natural}^{-1}\eta}]\\
-& = \mathbb{E}_{\pi}[\text{log} \ \pi - \text{log} \ {\eta \circ S} - \text{log} \ {\text{det}\nabla S}] \\
-& = \mathbb{E}_{\pi}[- \text{log} \ {\eta \circ S} - \text{log} \ {\text{det}\nabla S}] + \mathcal{C} (\text{Constants})
-\end{align}</script></span>
-<p>Hence the optmization problem becomes:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\text{min} \ & \mathbb{E}_{\pi}[- \text{log} \ {\eta \circ S} - \text{log} \ {\text{det}\nabla S}] \\
-\text{s.t} \ \ & \nabla S \succ 0, \\ & S \in \mathcal{T}_{\Delta} \end{align}</script></span>
-<p>The corresponding sampled average approximation is:</p>
-<span class="math"><script type="math/tex; mode=display">\begin{align}\end{align}
+<ul>
+<li>We know <span class="math"><script type="math/tex">\sigma^2_0 = \mathbb{E}[X_1^2]-\mu_0^2</script></span>. We already have an estimator for the second term in the right hand side of the equality. By LLN again we have,</li>
+</ul>
+<span class="math"><script type="math/tex; mode=display">\frac{X_1^2+X_2^2+...+X_n^2}{n} \to \mathbb{E}[X_1^2] \ \ \text{for} \ n \to \infty
 </script></span>
+<ul>
+<li>So we have</li>
+</ul>
+<span class="math"><script type="math/tex; mode=display">\begin{align}
+\hat{\sigma}_0^2 = &\frac{X_1^2+X_2^2+...+X_n^2}{n} - \Big(\frac{X_1+X_2+...+X_n}{n}\Big)^2 \\ &\to \mathbb{E}[X_1^2]  - \mathbb{E}[X_1] = \sigma^2_0 \ \ \text{for} \ n \to \infty \  (\text{using LLN})
+\end{align}</script></span>
+<p>What we see in the preceding example is the use of moments of the samples to generate estimate of the unknown parameter, hence the name <span style="color:blue"><em>method of moments</em></span>. Even though we have seperate estimators for <span class="math"><script type="math/tex">\mu_0</script></span> and <span class="math"><script type="math/tex">{\sigma}_0^2</script></span> in the example, it might so happen that we can form different estimators of <span class="math"><script type="math/tex">\mu_0</script></span> and <span class="math"><script type="math/tex">{\sigma}_0^2</script></span> using different moments of the samples. So it is clear that we have to differentiate among the available estimators and answer the question: which one is better and by how much ?</p>
 <hr>
-<footer>
-<p>Copyright © 2018 Niladri Das</p>
-</footer>
+<p><strong>How do you compare two estimators ?</strong></p>
+<p>Estimators are primarily compared using the following metrices:</p>
+<p><span style="color:blue"> <strong>Consistency</strong> </span></p>
+<p>Definition: If, when <span class="math"><script type="math/tex">n\to \infty</script></span> implies <span class="math"><script type="math/tex">\ \hat{\theta}_0 \to \theta_0</script></span> in probability, then the estimator is consistent, else not.</p>
+<ul>
+<li>In the previous section we saw that the moments used as estimator for the Gaussian distriution parameters are consistent using LLN.</li>
+</ul>
+<p><span style="color:blue"> <strong>Asymptotic Normality</strong> </span></p>
+<p><span class="math"><script type="math/tex">\hat{\theta}_0</script></span> is aymptotically normal if the following holds: <span class="math"><script type="math/tex">\sqrt{n}(\hat{\theta}_0 - \theta_0) \to^d \text{N}(0,\sigma_{\theta_0}^2)</script></span> when <span class="math"><script type="math/tex">n\to \infty</script></span>. Here <span class="math"><script type="math/tex">\sigma_{\theta_0}^2</script></span> is known as asymptotic variance of the estimator <span class="math"><script type="math/tex">\hat{\theta}_0</script></span>.</p>
+<ul>
+<li>Between two estimator the one which has lower asymptotic variance is considered to be ‘better’ than the other.</li>
+</ul>
+<p>There is a theorem that is useful in calculating this asymptotic variance of an estimator.</p>
+<p><strong>Theorem:</strong></p>
+<p>The estimate <span class="math"><script type="math/tex">\hat{\theta}_0 = m^{-1}(\hat{g})</script></span> by the methods of moments is asymptotically normal with asymptotic variance</p>
+<span class="math"><script type="math/tex; mode=display">\sigma_{\theta_0}^2 = \frac{\text{Var}_{\theta_0}(g)}{(m^{'}(\theta_0))^2}
+</script></span>
+<p><strong>Note:</strong> <span class="math"><script type="math/tex">\bar{g} = \mathbb{E}[g(X)] = m(\theta_0)</script></span>. The estimator is defined as: <span class="math"><script type="math/tex">\hat{g} = \frac{g(X_1)+g(X_2)+...+g(X_n)}{n} = m(\hat{\theta}_0)</script></span>. Using LLN we showed that this estimate <span class="math"><script type="math/tex">\hat{\theta}_0</script></span> due to method of moments produces consistent estimator. For different structure of <span class="math"><script type="math/tex">g</script></span> and correspondingly different <span class="math"><script type="math/tex">m^{-1}</script></span> we might get estimate of the same <span class="math"><script type="math/tex">\theta_0</script></span>. Hence we calculate the asymptotic variance to compare them.</p>
+<p><strong>Proof:</strong>
+<span style="color:red"><strong>TO-DO.</strong></span></p>
+<hr>
+<p><strong>Another way to synthesize an estimator</strong></p>
+<p><em>Maximum Likelihood Estimator</em> <span style="color:blue">(<strong>MLE</strong>)</span></p>
+<p>The random variable <span class="math"><script type="math/tex">X</script></span> and the parameter <span class="math"><script type="math/tex">\theta</script></span> defines <span class="math"><script type="math/tex">f(X|\theta)</script></span>, i.e. the probability distribution of <span class="math"><script type="math/tex">X</script></span> given <span class="math"><script type="math/tex">\theta</script></span>. We define:</p>
+<span class="math"><script type="math/tex; mode=display">\varphi(\theta) := f(X_1|\theta)f(X_2|\theta)...f(X_n|\theta)
+</script></span>
+<p>as the likelihood function. A mamixum likelihood <span style="color:blue"><strong>estimator</strong></span> of <span class="math"><script type="math/tex">\theta</script></span> is <span class="math"><script type="math/tex">\hat{\theta}</script></span> that <span style="color:blue"><strong>maximizes</strong></span> the likelihood function. Instead of a distribution <span class="math"><script type="math/tex">f(X|\theta)</script></span> might represent a density function also. When we have a particular realization of the random variables <span class="math"><script type="math/tex">X_i</script></span> as <span class="math"><script type="math/tex">x_i</script></span> we get the maximum likelihood <span style="color:blue"><strong>estimate</strong></span>.
+This was introduced by <a href="https://en.wikipedia.org/wiki/Ronald_Fisher">R.A. Fisher</a> in 1912.</p>
+<p>Instead of using <span class="math"><script type="math/tex">\varphi(\theta)</script></span> it is sometimes easier to deal with <span class="math"><script type="math/tex">\text{log}(\varphi(\theta))</script></span>.
+(<span style="color:red">Possibly it has something to do with transformation of the original GP problem to a convex problem.</span>)</p>
+<p><strong>Example</strong></p>
+<p>Let us calculate the maximum likelihood estimator of <span class="math"><script type="math/tex">\theta</script></span>. The underlying distribution is an uniform distribution <span class="math"><script type="math/tex">\text{U}[0,\theta]</script></span>. The pdf is:</p>
+<span class="math"><script type="math/tex; mode=display">  f(x|\theta) = \begin{cases}
+      1/\theta & 0 \leq x\leq \theta, \\
+      0 & \text{otherwise}
+   \end{cases}
+</script></span>
+<p>The likelihood function is: <span style="color:red"><strong>TO-DO</strong></span>
+<img src="/Users/niladridas/Dropbox/Research/temp_research_folder/Julia_Probability/docs_tmp/src/img/estimator1.jpg?v=1524617214773" alt="alt text"></p>
+<hr>
+<p><span style="color:blue"><strong>Consistency of MLE</strong></span></p>
+<p><strong>Theorem:</strong></p>
+<p>Under some regularity conditions on the family of distributions, MLE <span class="math"><script type="math/tex">\hat{\theta}</script></span> is consistent, i.e. <span class="math"><script type="math/tex">\hat{\theta} \to \theta</script></span> as <span class="math"><script type="math/tex">n\to \infty</script></span>.</p>
+<p><span style="color:blue"><strong>Aymptotic Normality of MLE</strong></span></p>
+<p>Before starting our proof we define something called a <span style="color:blue">Fisher Information</span> <span class="math"><script type="math/tex">I(\theta_0)</script></span> of a random variable. <span class="math"><script type="math/tex">I(\theta_0)</script></span> is defined as:</p>
+<span class="math"><script type="math/tex; mode=display">I(\theta_0) = \mathbb{E}_{\theta_0}[l^{\prime}(X|\theta_0)]^2:= \mathbb{E}_{\theta_0}\Big[\frac{\partial}{\partial \theta_0}\text{log} \ f(X|\theta_0)\Big]^2
+</script></span>
+<p>It can be proved that: <span class="math"><script type="math/tex">\mathbb{E}_{\theta_0}[l^{\prime\prime}(X|\theta_0)]= -I(\theta_0)</script></span></p>
+<p><strong>Theorem:</strong></p>
+<p>We have</p>
+<span class="math"><script type="math/tex; mode=display">\sqrt{n}(\hat{\theta}-\theta_0) \to \text{N}\Big(0,\frac{1}{I(\theta_0)}\Big)
+</script></span>
+<p><strong>Proof:</strong>
+<span style="color:red"><strong>TO-DO.</strong></span></p>
+<hr>
+<p><strong>Rao-Cramer Inequality</strong></p>
   </body>
 </html>
