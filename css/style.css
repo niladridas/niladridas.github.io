@@ -21,3 +21,11 @@ background-image: url("cream-paper.png");
 a {
    text-decoration: none;
 }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
