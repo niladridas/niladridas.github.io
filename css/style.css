@@ -10,6 +10,7 @@ footer {
 body {
 background-color: #F8F9F9;
 background-image: url("cream-paper.png");
+ clear:both; 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
