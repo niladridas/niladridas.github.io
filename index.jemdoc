@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+==Niladri Das
+
+~~~
+{}{img_left}{homephoto.jpeg}{alt text}{125}{160}
+PhD student,\n [https://engineering.tamu.edu/aerospace/index.html Department of Aerospace Engineering], \n[https://www.tamu.edu Texas A & M University (TAMU)]\n
+Office: 201 Reed-McDonald Building \n
+575 Ross St, College Station, TX 77840 \n
+E-post: /niladridas/ \[@\] tamu \[DOT\] edu
+~~~
+
+== About me
+I received my Bachelors and Masters degree in electrical engineering from Jadavpur University ([http://www.jaduniv.edu.in/view_department.php?deptid=58 JU]) and Indian Institute of Technology Kanpur ([https://www.iitk.ac.in/ee/ IIT]) in India, in 2012 and 2014, respectively. I worked as a project associate for a year at IIT Kanpur. In September 2015, I joined the PhD program in Aerospace engineering at Texas A & M University, under the supervision of [https://engineering.tamu.edu/aerospace/profiles/rbhattacharya.html  Raktim Bhattacharya].
+
+
+== Research
+My research interests include
+- Non-Linear Filtering
+- Optimal Sensor Precision Selection
+- Space Situational Awareness
+
+[research.html Find out more].
+=== Recent Publications
+. N. Das, R. P. Ghosh, N. Guha, R. Bhattacharya, B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  The Journal of the Astronautical Sciences (under review).
+. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  Journal of Guidance, Control, and Dynamics (under review).
+. N. Das, R. Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, In 1st IAA Conference on Space Situational Awareness, Orlando, Florida, 2017.
+
+\n
+[resume.pdf Resume].
