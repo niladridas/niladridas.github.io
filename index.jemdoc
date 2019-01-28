@@ -2,15 +2,16 @@
 ==Niladri Das
 
 ~~~
-{}{img_left}{homephoto.jpeg}{alt text}{120}{150}
-PhD student,\n [https://engineering.tamu.edu/aerospace/index.html Department of Aerospace Engineering], \n[https://www.tamu.edu Texas A & M University (TAMU)]\n
+{}{img_left}{homephoto.jpeg}{alt text}{170}{190}
+PhD student\n
+[https://isrlab.github.io/ Intelligent Systems Research Laboratory]\n [https://engineering.tamu.edu/aerospace/index.html Department of Aerospace Engineering] \n[https://www.tamu.edu Texas A & M University (TAMU)]\n
 Office: 201 Reed-McDonald Building \n
 575 Ross St, College Station, TX 77840 \n
 E-post: /niladridas/ \[@\] tamu \[DOT\] edu
 ~~~
 
 == About me
-I received my Bachelors and Masters degree in electrical engineering from Jadavpur University ([http://www.jaduniv.edu.in/view_department.php?deptid=58 JU]) and Indian Institute of Technology Kanpur ([https://www.iitk.ac.in/ee/ IIT]) in India, in 2012 and 2014, respectively. I worked as a project associate for a year at IIT Kanpur. In September 2015, I joined the PhD program in Aerospace engineering at Texas A & M University, under the supervision of [https://engineering.tamu.edu/aerospace/profiles/rbhattacharya.html  Raktim Bhattacharya].
+I received my Bachelors and Masters degree in *Electrical engineering* from *Jadavpur University* ([http://www.jaduniv.edu.in/view_department.php?deptid=58 JU]) and *Indian Institute of Technology Kanpur* ([https://www.iitk.ac.in/ee/ IIT]) in India, in 2012 and 2014, respectively. I worked as a project associate for a year at IIT Kanpur. In September 2015, I joined the PhD program in *Aerospace engineering* at Texas A&M University, under the supervision of [https://engineering.tamu.edu/aerospace/profiles/rbhattacharya.html  *Raktim Bhattacharya*].
 
 
 == Research
@@ -21,9 +22,20 @@ My research interests include
 
 [research.html Find out more].
 === Recent Publications
-. N. Das, R. P. Ghosh, N. Guha, R. Bhattacharya, B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  The Journal of the Astronautical Sciences (under review).
-. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  Journal of Guidance, Control, and Dynamics (under review).
-. N. Das, R. Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, In 1st IAA Conference on Space Situational Awareness, Orlando, Florida, 2017.
+. N. Das, R. P. Ghosh, [https://sites.google.com/view/nilabjaguha/ N. Guha], R. Bhattacharya, [https://www.stat.tamu.edu/~bmallick/ B. Mallick], \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *The Journal of the Astronautical Sciences* (under review).
+. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  *Journal of Guidance, Control, and Dynamics* (Accepted)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)].
+. N. Das, R. Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, *In 1st IAA Conference on Space Situational Awareness*, Orlando, Florida, 2017.
+
+=== Talks and Posters
+. Poster Title: Space Situational Awareness, *U.S. Air Force Science and Technology 2030*, June 2018 ([poster1.pdf PDF])
+. Poster Title: Optimal Transport Based Satellite State Estimation, *Texas Systems Day*, March 31, 2017 ([poster2.pdf PDF])
+
+=== Projects and Fundings
+. Adaptive Markov Inference Game Optimization (AMIGO) for Rapid Discovery of Evasive Satellite Behaviors (2018) PI: Raktim Bhattacharya, [https://www.i-fusion-i.com/ Intelligent Fusion Technology, Inc.]
+. Cloud Computing Based Robust Space Situational Awareness (2015-2018), PI: Raktim Bhattacharya, Co-PI: [https://www.stat.tamu.edu/~bmallick/ Bani Mallick], AFOSR
+
+
 
 \n
-[resume.pdf Resume].
+=== Resume
+[resume.pdf PDF].
