@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU}{index.html}, fwtitle
 ==Niladri Das
 
 ~~~
@@ -22,8 +22,8 @@ My research interests include
 
 [research.html Find out more].
 === Recent Publications
-. N. Das, R. P. Ghosh, [https://sites.google.com/view/nilabjaguha/ N. Guha], R. Bhattacharya, [https://www.stat.tamu.edu/~bmallick/ B. Mallick], \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *The Journal of the Astronautical Sciences* (under review).
-. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  *Journal of Guidance, Control, and Dynamics* (Accepted)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)].
+. N. Das, R. P. Ghosh,  N. Guha , R. Bhattacharya, B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *The Journal of the Astronautical Sciences* (accepted, 2019)[https://www.researchgate.net/publication/319357580_Optimal_Transport_Based_Tracking_of_Space_Objects_in_Cylindrical_Manifolds (Preprint)].
+. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  *Journal of Guidance, Control, and Dynamics* (Accepted, 2019)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)].
 . N. Das, R. Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, *In 1st IAA Conference on Space Situational Awareness*, Orlando, Florida, 2017.
 
 === Talks and Posters
