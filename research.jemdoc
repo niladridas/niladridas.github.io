@@ -3,7 +3,7 @@
 
 == Sensor Architecture Design
 Sensors are in integral part of a system, providing knowledge about system states, through state
-estimation, which can further be utilized to control the system. The problem of sensor design addresses questions
+filtering, which can further be utilized to control the system. The problem of sensor design addresses questions
 regarding, $\color{red}{{}^1}$which type of sensors do we need, $\color{red}{{}^2}$how accurate sensors do we need, and $\color{red}{{}^3}$when and where do we use
 them for a particular type of filtering scheme.
 - Applications:
