@@ -15,13 +15,7 @@ them for a particular type of filtering scheme.
 == Situational Awareness
 - *Space Situational Awareness*\n
 Space situational awareness (SSA) refers to the ability to view, understand and predict the
-physical location of natural and manmade objects in orbit around the Earth, with the objective of avoiding
-collisions. As space becomes more congested, maintaining a timely and accurate picture of space activities
-simultaneously becomes both more important and difficult. The seriousness of this problem has been highlighted
-by the recent collision between U.S. Iridium LLC and Russian Federation Cosmos satellites, which
-destroyed both the satellites and added more than two thousand additional pieces of debris in space. It cannot
-be emphasized enough that as the number of assets orbiting Earth increases the danger of and effects of
-collisions also increases. Our research leverages upon a non-linear filtering technique known as Optimal Transport filter, to provide better probabilistic information about states of each of those space debris.
+physical location of natural and manmade objects in orbit around the Earth.  Our research leverages upon a non-linear filtering technique known as Optimal Transport filter, to provide better probabilistic information about states of each of those space debris.
 
   - Publications:
     -- \[Journal\] N. Das, R. P. Ghosh,  N. Guha , R. Bhattacharya, B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *[http://astronautical.org/publications/journal/ The Journal of the Astronautical Sciences]* (Accepted, 2019)[https://www.researchgate.net/publication/319357580_Optimal_Transport_Based_Tracking_of_Space_Objects_in_Cylindrical_Manifolds (Preprint)].
