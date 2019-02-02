@@ -30,3 +30,6 @@ physical location of natural and manmade objects in orbit around the Earth.  Our
 MD5, in collaboration with Army Futures Command, hosted [https://a-hack-of-the-drones.devpost.com/ *A Hack of the Drones 2018*] at Capital Factory in downtown Austin, TX from September 28 – 30, 2018. The *A-Team*, of which I was a part of, worked on detection of sUAS which is not actively broadcasting or communicating, was among the three winners. We formed AIMS Technologies LLC, which received a contract of 1500$, to further develop our concept in collaboration with MD5.
 
 == Dynamics Modeling, Control and Imitation Learning
+
+- Publications:
+  -- \[Conference\] N.Das, R. Prakash, L. Behera \"Learning Object Manipulation from Demonstration through Vision for the 7-DOF Barrett WAM.\",[https://ieeexplore.ieee.org/abstract/document/7413777 (link)] 
