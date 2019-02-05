@@ -37,18 +37,7 @@ MD5, in collaboration with Army Futures Command, hosted [https://a-hack-of-the-d
   -- \[Conference\] A.Mitra, N.Das, R. Samant, L. Behera \"Control of a 4 DoF Barrett WAM robot — Modeling, control synthesis and experimental validation.\", 2015 IEEE 13th International Conference on Industrial Informatics (INDIN), 22-24 July 2015. [https://ieeexplore.ieee.org/abstract/document/7413778 (pdf link)]
 
   - Videos:
-- ~~~
+  ~~~
   {}{raw}
   <div align="center"> <iframe width="560" height="315" src="//www.youtube.com/watch?v=AhPH4fLEGpI" frameborder="0" allowfullscreen align="middle"></iframe> </div>
-~~~
-
-~~~
-{}{raw}
-Any text here will be copied straight to the output file without processing.
-~~~
-
-~~~
-{<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=AhPH4fLEGpI">
-</iframe>}{raw}
-~~~
+  ~~~
