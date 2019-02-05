@@ -42,7 +42,11 @@ MD5, in collaboration with Army Futures Command, hosted [https://a-hack-of-the-d
   <div align="center"> <iframe width="560" height="315" src="//www.youtube.com/embed/AhPH4fLEGpI" frameborder="0" allowfullscreen align="middle"></iframe> </div>
   <div align="center"> <iframe width="560" height="315" src="//www.youtube.com/embed/WLxVG2RlI-o" frameborder="0" allowfullscreen align="middle"></iframe> </div>
 
+
+  ~~~
+  {}{raw}
   <div class="row">
-    <div class="column"><div align="center"> <iframe width="560" height="315" src="//www.youtube.com/embed/AhPH4fLEGpI" frameborder="0" allowfullscreen align="middle"></iframe> </div></div>
-    <div class="column"><div align="center"> <iframe width="560" height="315" src="//www.youtube.com/embed/WLxVG2RlI-o" frameborder="0" allowfullscreen align="middle"></iframe> </div></div>
-  </div>
+    <div class="column">
+      <iframe width="560" height="315" src="//www.youtube.com/embed/AhPH4fLEGpI" frameborder="0" allowfullscreen align="middle"></iframe>
+      <iframe width="560" height="315" src="//www.youtube.com/embed/WLxVG2RlI-o" frameborder="0" allowfullscreen align="middle"></iframe>
+    </div>
