@@ -70,7 +70,7 @@ body, p {
 #layout-content {
 	padding-left: 25px;
 	padding-top: 1em;
-	width: 600px;
+	width: 900px;
 }
 
 b {
@@ -83,7 +83,7 @@ p b {
 
 div.menu-category {
 	border: none;
-	border-bottom: 1px solid 
+	border-bottom: 1px solid
 	margin-top: 1.0em;
 	padding-bottom: 0;
 }
