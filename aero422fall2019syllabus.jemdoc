@@ -15,21 +15,23 @@
 Introduction to the Theory of Automatic Control specifically applied to aerospace vehicles; techniques for analysis and synthesis of linear control systems, stability criteria, systems response and performance criteria; design studies of active controls to improve aerospace vehicle performance.
 
 *Learning Outcomes or Course Objectives*\n
-This course is designed to introduce students to the basics of programming with modern programming languages in the context of development for and with GIS. Students will learn how to apply this knowledge to develop custom GIS applications and extensions that solve real-world problems. This course will provide students with a solid foundation in fundamental programming techniques and the knowledge to apply these techniques within GIS programming domains.
 
-The course will start with an introduction to fundamental programming structures and techniques and quickly advance to programming issues related to developing for GIS platforms including integration of their code into industry standard GIS platforms to extend the capabilities of these systems.
+. Introduction:  Signals and Systems | Laplace Transform | Transfer Function I | System Interconnection
+. Dynamic Response: Transfer Function II | Poles, Zeros, and Causality | Time Response | Stability Analysis
+. Basic Feedback Analysis & Design: Stabilizing Controller | Benefits of Feedback | System Type
+. PID Control Design: P Control | I Control | PI Control | PD Control | PID Control
+. Root Locus Design Method: Root Locus | Dynamic Compensator | Design Examples
+. Frequency Response Design Method: Frequency Response | Fourier Analysis | Bode Plot | Asymptotes | Steady-State | Stability | Design
 
-The course will include a lecture component where theoretical issues are covered, and homework and lab-based exercises where students have the opportunity to practice implementing these techniques in various programming languages including Python and C#.
-This course will also include identification of and interaction with a real-world “customer” who needs GIS programming. Students will learn software project management skills while participating in a team led by a graduate student and have the opportunity to interact with a real-world “customer” to experience the identification and translation of customer requirements into application development.
+There are are in-class tutorials which you are expected to work through. There are also homework assignments. For questions, please use the *Piazza* discussion boards as your first option so that your questions/answers can help other students with the same issues. Your instructor will closely follow these discussion boards, and will post responses there.
 
-At the end of this class, each student will be able to:\n
-1. Identify a set of requirements for the development of a software system;\n
-2. Implement standalone programming projects in Python and C# to solve GIS problems;\n
-3. Integrate custom code into ArcGIS that customizes, automates, and extents its functionality;\n
-4. Programmatically access GIS data and use these data in GIS modeling, computation, visualization, and analysis; and\n
-5. Conceptualize, design, plan, implement, and document a custom GIS programming solution to a real-world problem.
 
-There are are in-class tutorials which you are expected to work through. There are also homework assignments . For questions, please use the Canvas discussion boards as your first option so that your questions/answers can help other students with the same issues. Your instructor will closely follow these discussion boards, and will post responses there.
+
+*Grading Policies* \n Your grade in this class will be based on the following:\n
+1. Problem Sets (50\%)\n
+2. Take-home Mid-term Exam(30\%)\n
+3. Final Exam (20\%)
+
 
 
 *Email* \n
@@ -48,13 +50,6 @@ Attendance is mandatory for all classes and events. This course will follow the 
 
 *Homeworks*\n
 Homeworks are important and integral portions of the course. There is simply no way to learn without spending considerable time on your own working on problems. The homeworks will typically require time outside of the scheduled class. Homeworks *will  not be accepted for credit* unless covered by a University excused absence. It is your responsibility for keeping up with assignments. You should talk to your *TA* and or the *instructor* *BEFORE* late assignments become a problem.
-
-
-*Grading Policies* \n Your grade in this class will be based on the following:\n
-1. Problem Sets (50\%)\n
-2. Take-home Mid-term Exam(30\%)\n
-3. Final Exam (20\%)
-
 
 *Academic Integrity*\n
 Aggie Code of Honor. For many years Aggies have followed a Code of Honor, which is stated in this very simple verse:
