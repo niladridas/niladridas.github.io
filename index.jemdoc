@@ -34,12 +34,17 @@ My current research interests include:\n *Non-Linear Filtering* | *Optimal Senso
 
 . {{<font color="blue">Niladri Das</font>
 }} and Raktim Bhattacharya,\"Privacy and Utility Aware Data Sharing for Space Situational Awareness from Ensemble and Unscented Kalman Filtering Perspective.", *IEEE Transactions on Aerospace and Electronic Systems* (Submitted, 2019)[https://arxiv.org/abs/1912.03775 (arXiv)]
-. Vedang Deshpande, Niladri Das, Vaishnav Tadiparthi, and Raktim Bhattacharya,\"
+. Vedang Deshpande, {{<font color="blue">Niladri Das</font>
+}}, Vaishnav Tadiparthi, and Raktim Bhattacharya,\"
   On Neural Network Training from Noisy Data using a Novel Filtering Framework.\", *AIAA SciTech Forum and Exposition 2020* (Accepted, 2019)
-. Vinicius G. Goecks, Grayson Woods, Niladri Das, and John Valasek,\" Combining Visible and Infrared Spectrum Imagery using Machine Learning for Small Unmanned Aerial System Detection.\", *SPIE Automatic Target Recognition Conference* (Submitted, 2019)
-. N. Das, R. P. Ghosh,  N. Guha , R. Bhattacharya, and B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *The Journal of the Astronautical Sciences* (Accepted, 2019)[https://www.researchgate.net/publication/319357580_Optimal_Transport_Based_Tracking_of_Space_Objects_in_Cylindrical_Manifolds (Preprint)].
-. N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station \",  *Journal of Guidance, Control, and Dynamics* (Accepted, 2019)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)][https://arc.aiaa.org/doi/abs/10.2514/1.G003796 (Published Paper)].
-. N. Das, R. Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, *In 1st IAA Conference on Space Situational Awareness*, Orlando, Florida, 2017.
+. Vinicius G. Goecks, Grayson Woods, {{<font color="blue">Niladri Das</font>
+}}, and John Valasek,\" Combining Visible and Infrared Spectrum Imagery using Machine Learning for Small Unmanned Aerial System Detection.\", *SPIE Automatic Target Recognition Conference* (Submitted, 2019)
+. {{<font color="blue">Niladri Das</font>
+}}, Riddhi P. Ghosh,  Nilabja. Guha , Raktim Bhattacharya, and Bani Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *The Journal of the Astronautical Sciences* (Accepted, 2019)[https://www.researchgate.net/publication/319357580_Optimal_Transport_Based_Tracking_of_Space_Objects_in_Cylindrical_Manifolds (Preprint)].
+. {{<font color="blue">Niladri Das</font>
+}}, Vedang Deshpande, Raktim Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station \",  *Journal of Guidance, Control, and Dynamics* (Accepted, 2019)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)][https://arc.aiaa.org/doi/abs/10.2514/1.G003796 (Published Paper)].
+. {{<font color="blue">Niladri Das</font>
+}}, Raktim Bhattacharya, \"\Sparse Sensing Architecture For Kalman Filtering With Guaranteed Error Bound."\, *In 1st IAA Conference on Space Situational Awareness*, Orlando, Florida, 2017.
 
 == Talks and Posters
 . Poster Title: Space Situational Awareness, *U.S. Air Force Science and Technology 2030*, June 2018 ([poster1.pdf PDF])
