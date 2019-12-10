@@ -1,6 +1,11 @@
 # jemdoc: menu{MENU}{research.html}, fwtitle
 = Research
 
+== Privacy and Utility in Data sharing for State Estimation
+- Publications:
+-- \[Journal\] N. Das, R. Bhattacharya, \"Privacy and Utility Aware Data Sharing for Space Situational Awareness from Ensemble and Unscented Kalman Filtering Perspective."\ *IEEE Transactions on Aerospace and Electronic Systems* (Submitted, 2019)[https://arxiv.org/abs/1912.03775 (arXiv)]
+
+
 == Sensor Architecture Design
 Sensors are in integral part of a system, providing knowledge about system states, through state
 filtering, which can further be utilized to control the system. The problem of sensor design addresses questions
@@ -16,11 +21,9 @@ them for a particular type of filtering scheme.
 - *Space Situational Awareness*\n
 Space situational awareness (SSA) refers to the ability to view, understand and predict the
 physical location of natural and manmade objects in orbit around the Earth.  Our research leverages upon a non-linear filtering technique known as Optimal Transport filter, to provide better probabilistic information about states of each of those space objects.
-- *Collision Probability Calculation*\n
 
 
   - Publications:
-    -- \[Conference\] C. Shelton, N. Das, J. Junkins, R. Bhattacharya, \"Risk Quantification in Dynamical Systems with Bounded Nonparametric Uncertainty\", *2019 Astrodynamics Specialist Conference*, Portland, ME (accepted for presentation, Aug 11-15).
     -- \[Journal\] N. Das, R. P. Ghosh,  N. Guha , R. Bhattacharya, B. Mallick, \"Optimal Transport Based Tracking of Space Objects in Cylindrical Manifolds.\",  *[http://astronautical.org/publications/journal/ The Journal of the Astronautical Sciences]* ( Accepted, 2019)[https://www.researchgate.net/publication/319357580_Optimal_Transport_Based_Tracking_of_Space_Objects_in_Cylindrical_Manifolds (Preprint)] [https://urldefense.proofpoint.com/v2/url?u=http-3A__em.rdcu.be_wf_click-3Fupn-3DlMZy1lernSJ7apc5DgYM8Qg-2D2BC4y1IYW2QsBkxUuDZYQ-2D3D-5FNN8q6Obt-2D2FD2oN4H-2D2FUdBHuaz7eyy5ZkfyN2LVa-2D2Fak-2D2Bgwme5xjUHZnBktdy-2D2FMxf-2D2FPC7SRWgLZyWiBPKNj47snYli4Rrp8cQpB4mQioggiPx7heIqSjvKTf4EP1sGQUabaFHVQK-2D2FbX7icmhelfNBQv5PQrF1TI9W2t7GCXQFPr91Da-2D2FxlZK59hZd8h6EBXLbD0Hjwk-2D2F5CtR5zuzWX5p-2D2BYGzurVQFLIfLUzT-2D2BQgPFcQw16huPMRU2ZIsqZP-2D2FknJTxKHOTdbRZ3LHuWs0nLnDd7QFVQ-2D3D-2D3D&d=DwMFaQ&c=ODFT-G5SujMiGrKuoJJjVg&r=0tvMWX-bzQ6hfHu_gb7fV72M4DsvkbvFy5rvGJ6yInA&m=WI4MowFp-B0JOm4f7zWlDrBNpcH-e1TPYreEO9XoVE0&s=qMEAKz3W1K8edl8aiz6-YmEjX9CXa5bAjIU42gsVSBg&e=
     (Paper)].
     -- \[Journal\] N. Das, V. Deshpande, R. Bhattacharya, \" Optimal Transport based Tracking of Space Objects using Range Data from a Single Ranging Station. \",  *[https://arc.aiaa.org/loi/jgcd Journal of Guidance, Control, and Dynamics]* (Accepted, 2019)[https://www.researchgate.net/publication/329487928_Optimal_Transport_based_Tracking_of_Space_Objects_using_Range_Data_from_a_Single_Ranging_Station (Preprint)].
