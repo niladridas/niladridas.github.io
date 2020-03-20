@@ -42,7 +42,7 @@ physical location of natural and manmade objects in orbit around the Earth.  Our
 MD5, in collaboration with Army Futures Command, hosted [https://a-hack-of-the-drones.devpost.com/ *A Hack of the Drones 2018*] at Capital Factory in downtown Austin, TX from September 28 – 30, 2018. The *A-Team*, of which I was a part of, worked on detection of sUAS which is not actively broadcasting or communicating, was among the three winners.
 
   - Publications:
-  -- Vinicius G. Goecks, Grayson Woods, Niladri Das, and John Valasek,\" Combining Visible and Infrared Spectrum Imagery using Machine Learning for Small Unmanned Aerial System Detection.\", *SPIE Automatic Target Recognition Conference* (Accepted, 2019)[https://sites.google.com/view/tamudrone-spie2020/ (Paper Website)] 
+  -- Vinicius G. Goecks, Grayson Woods, Niladri Das, and John Valasek,\" Combining Visible and Infrared Spectrum Imagery using Machine Learning for Small Unmanned Aerial System Detection.\", *SPIE Automatic Target Recognition Conference* (Accepted, 2019)[https://sites.google.com/view/tamudrone-spie2020/ (Paper Website)]
 
 == Modeling, Control, and Imitation Learning
 
@@ -55,7 +55,7 @@ MD5, in collaboration with Army Futures Command, hosted [https://a-hack-of-the-d
 - Videos:
 ~~~
 {}{raw}
-<div align="center"> <iframe width="400" height="300" src="//www.youtube.com/embed/AhPH4fLEGpI" frameborder="0" allowfullscreen align="left"></iframe> </div><div align="center"> <iframe width="400" height="300" src="//www.youtube.com/embed/WLxVG2RlI-o" frameborder="0" allowfullscreen align="right"></iframe> </div>
+<div align="center"> <iframe width="350" height="250" src="//www.youtube.com/embed/AhPH4fLEGpI" frameborder="0" allowfullscreen align="left"></iframe> </div><div align="center"> <iframe width="350" height="250" src="//www.youtube.com/embed/WLxVG2RlI-o" frameborder="0" allowfullscreen align="right"></iframe> </div>
 ~~~
 
 \n
