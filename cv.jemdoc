@@ -1,5 +1,7 @@
 # jemdoc: menu{MENU}{cv.html}, fwtitle
 
 = Curriculum Vitae
-{{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-}}[cv.pdf {{<i class="ai ai-cv-square ai-4x"></i>}}]
+{{<embed src=
+  "cv.pdf"
+  width="800"
+  height="4000">}}
