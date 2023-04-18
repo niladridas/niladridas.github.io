@@ -19,10 +19,6 @@ I am interested in Bayesian estimation, machine learning, data privacy, and cont
 
 ~~~
 
-== News
-{{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}} {{<i class="fa fa-newspaper-o" style="font-size:20px"></i>
-}} Organizing a mini-symposium on Variational inference for SIAM CSE 2023 at Amsterdam, The Netherlands in Feb-March 2023.
-
 
 == Work Experience
 {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}} {{<i class="fa fa-shopping-bag" style="font-size:20px"></i>
@@ -47,7 +43,9 @@ I am interested in Bayesian estimation, machine learning, data privacy, and cont
 
 
 == Recent Publications
-. Variational Kalman Filtering with Hinf-Based Correction for Robust Bayesian Learning in High Dimensions | {{<font color="blue">Niladri Das</font>}}, Jed A. Duersch, and Thomas A. Catanach | 2022 | {{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+. Metrics for Bayesian Optimal Experiment Design under Model Misspecification | Tommie A. Catanach and {{<font color="blue">Niladri Das</font>}} | 2022 | {{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+}}[https://arxiv.org/abs/2304.07949 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}]
+. Variational Kalman Filtering with Hinf-Based Correction for Robust Bayesian Learning in High Dimensions | {{<font color="blue">Niladri Das</font>}}, Jed A. Duersch, and Tommie A. Catanach | 2022 | {{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 }}[https://arxiv.org/abs/2204.13089 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | CDC 2022
 . Adaptive nary Activation Functions for Probabilistic Boolean Logic | Jed A. Duersch, Thomas A. Catanach, and {{<font color="blue">Niladri Das</font>}} | 2022 | {{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 }}[https://arxiv.org/abs/2203.08977 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | Submitted to Information Sciences
