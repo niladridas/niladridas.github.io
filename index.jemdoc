@@ -33,7 +33,8 @@ I am interested in Bayesian estimation, machine learning, data privacy, and cont
 
 == Recent Publications
 . Metrics for Bayesian Optimal Experiment Design under Model Misspecification | Tommie A. Catanach and {{<font color="blue">Niladri Das</font>}} | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-}}[https://arxiv.org/abs/2304.07949 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | April 2023
+}}[https://arxiv.org/abs/2304.07949 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+}}[https://github.com/niladridas/Metrics-BOED-Model-Misspecifications {{<i class="fa fa-github"></i>}}] | April 2023
 . Variational Kalman Filtering with Hinf-Based Correction for Robust Bayesian Learning in High Dimensions | {{<font color="blue">Niladri Das</font>}}, Jed A. Duersch, and Tommie A. Catanach | 2022 | {{<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 }}[https://arxiv.org/abs/2204.13089 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 }}[https://github.com/niladridas/VKF-with-Hinf-Based-Correction-for-Robust-Bayesian-Learning {{<i class="fa fa-github"></i>}}] | CDC 2022 |
