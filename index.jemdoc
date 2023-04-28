@@ -3,8 +3,13 @@
 ~~~
 {}{img_left}{headshot1.jpg}{alt text}{200ß}{200}
 == Niladri Das
-I am a Postdoctoral appointee at the Sandia National Laboratories.\n
-I am interested in Bayesian estimation, machine learning, data privacy, and controls.
+Welcome to my personal webpage! I am a postdoc researcher currently working at a Sandia National Laboratories, where I design algorithms and tools for Bayesian inference and optimal experiment design.\n 
+My research aims to enhance problem solving in various fields including AI, controls, and power systems.\n
+I am passionate about teaching people how to apply these techniques in their own work and to further advance our understanding of these areas.\n 
+On this website, you can find information about my research projects, publications, and teaching experience. Thank you for visiting!\n
+
+#I am a Postdoctoral appointee at the Sandia National Laboratories.\n
+#I am interested in Bayesian estimation, machine learning, data privacy, and controls.
 
 {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}}[https://www.linkedin.com/in/niladri-das/ {{<i class="fa fa-linkedin-square" style="font-size:40px"></i>
 }}] {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}}[https://github.com/niladridas {{<i class="fa fa-github" style="font-size:40px"></i>
