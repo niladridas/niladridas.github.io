@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{index.html}, fwtitle
 
 ~~~
-{}{img_left}{headshot1.jpg}{alt text}{200ß}{200}
+{}{img_left}{headshot1.jpg}{alt text}{200}{180}
 == Niladri Das
 I am a postdoc researcher at a Sandia National Laboratories, where I design algorithms and tools for Bayesian inference, Machine Learning, and optimal experiment design.\n
 My research aims to enhance problem solving in various fields including AI, controls, and power systems.\n
