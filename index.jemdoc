@@ -3,9 +3,7 @@
 ~~~
 {}{img_left}{headshot4.JPG}{alt text}{180}{180}
 == Niladri Das
-I am a postdoc researcher at a Sandia National Laboratories, where I design algorithms and tools for Bayesian inference, Machine Learning, and optimal experiment design.\n
-My research aims to enhance problem solving in various fields including ML, controls, material science, climate science, and power systems.\n
-I am passionate about teaching people how to apply these techniques in their own work and to further advance our understanding of these areas.\n
+I am a postdoctoral researcher at the Sandia National Laboratories, where I design algorithms and tools for Bayesian inference, machine learning, and optimal experiment design. My research aims to enhance problem solving in various fields including ML, controls, material science, climate science, and power systems. I am passionate about teaching people how to apply these techniques in their own work and to further advance our understanding of these areas.\n
 
 #I am a Postdoctoral appointee at the Sandia National Laboratories.\n
 #I am interested in Bayesian estimation, machine learning, data privacy, and controls.
@@ -17,9 +15,8 @@ I am passionate about teaching people how to apply these techniques in their own
 \n
 
 {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}} {{<i class="fa fa-envelope" style="font-size:20px"></i>
-}}  ndas \[at\] sandia \[dot\] gov \n
-{{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">}} {{<i class="fa fa-envelope" style="font-size:20px"></i>
-}}  nil.das.adri \[at\] gmail \[dot\] com \n
+}}  ndas \[at\] sandia \[dot\] gov 
+
 
 ~~~
 
@@ -36,6 +33,8 @@ I am passionate about teaching people how to apply these techniques in their own
 
 
 == Recent Publications
+. Development of Bayesian Component Failure Models in E1 HEMP Grid Analysis | {{<font color="blue">Niladri Das</font>}}, Ross Guttromson,Tommie A. Catanach | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+}}[https://arxiv.org/abs/2304.07949 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}]
 . Metrics for Bayesian Optimal Experiment Design under Model Misspecification | Tommie A. Catanach and {{<font color="blue">Niladri Das</font>}} | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 }}[https://arxiv.org/abs/2304.07949 {{<i class="ai ai-arxiv-square ai-1.6x"></i>}}] | {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 }}[https://github.com/niladridas/Metrics-BOED-Model-Misspecifications {{<i class="fa fa-github"></i>}}] | IEEE CDC 2023
@@ -72,6 +71,9 @@ I am passionate about teaching people how to apply these techniques in their own
 
 
 == Talks and Posters
+. Goldschmidt 2024, Chicago | Aug 18-23, 2024 | Presentation
+. GlobalEM 2024, Austin | July 14-19, 2024 | Presentation | Nominated for Young Scientist Award
+. SIAM Conference on Mathematics of Planet Earth | June 10-12, 2024 | Presentation
 . IEEE CDC, Cancun, Mexico | Dec 6-9, 2022 | Presentation
 . Society of Engineering Sciences Annual Technical Meeting, College Station, TX, USA | October 16-19, 2022 | RL in Material Science Research | Presentation
 . SIAM Annual Meeting, Pittsburg, Pennsylvania, USA | July 11-15, 2022 | Presentation
